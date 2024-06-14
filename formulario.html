@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulario</title>
+  </head>
+  <body>
+    <form action="./Form_Enviado/Mensaje.html">
+      <div>
+        <label for="nombre">Input tipo texto y tiene focus</label>
+        <input id="nombre" type="text" placeholder="Escribe tu nombre" autocomplete="off" autofocus />
+      </div>
+
+      <div>
+        <label>Input tipo password y obligatorio</label>
+        <input type="password" required maxlength="7" placeholder="Escribe tu contraseña" />
+      </div>
+
+      <div>
+        <label for="">Input tipo number</label>
+        <input type="number" min="1" max="20" />
+      </div>
+      <div>
+        <label for="">Input tipo email</label>
+        <input type="email" />
+      </div>
+      <div>
+        <label for="">Input tipo file</label>
+        <input type="file" />
+      </div>
+      <div>
+        <label for="">Input tipo range</label>
+        <input type="range" min="0" max="30" />
+      </div>
+      <div>
+        <label for="">Input tipo date</label>
+        <input type="date" />
+      </div>
+      <div>
+        <label for="">Input tipo datetime-local</label>
+        <input type="datetime-local" />
+      </div>
+      <div>
+        <label for="">Input tipo reset </label>
+        <input type="reset" value="Borrar" />
+      </div>
+      <div>
+        <label for="">Input tipo radio</label>
+        <input type="radio" />
+      </div>
+      <div>
+        <label for="">Input tipo imagen</label>
+        <input
+          type="image"
+          src="https://cdn.icon-icons.com/icons2/1880/PNG/512/iconfinder-send-4341325_120524.png"
+          width="30px"
+        />
+      </div>
+      <div>
+        <label>Este es un input tipo submit</label>
+        <input type="submit" />
+      </div>
+      <div>
+        <label for="">Input desabilitado</label>
+        <input type="text" disabled />
+      </div>
+      <div>
+        <label>Este es un botón</label>
+        <button type="submit">Enviar</button>
+      </div>
+    </form>
+  </body>
+</html>

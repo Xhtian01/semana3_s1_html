@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Imagenes</title>
+  </head>
+  <body>
+    <h1>Imagenes</h1>
+    <h2>Imagen con ruta absoluta</h2>
+    <img src="https://tcg.pokemon.com/assets/img/home/wallpapers/wallpaper-6.jpg" alt="imagen" />
+
+    <h2>Imagen con ruta relativa</h2>
+    <img src="./images/pokemon.jpg" alt="imagen" />
+
+    <h2>Imagen Render</h2>
+    <img
+      src="./images/zeraora.jpg"
+      width="684"
+      height="358"
+      srcset="./images/pokemon.jpg 480w, ./images/Pokemon.svg 768w, ./images/zeraora.jpg 1024w"
+      sizes="(max-width: 600px) 300px, (max-width: 900px) 768px, 1024px"
+    />
+
+    <h2>Imagen optimizada</h2>
+    <img src="./images/pokemon2.jpg" alt="imagen" title="Imagen de Gardevoir" />
+
+    <h2>Imagen SVG</h2>
+    <img src="./images/Pokemon.svg" alt="logo" width="700" />
+  </body>
+</html>
